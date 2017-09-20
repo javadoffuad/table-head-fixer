@@ -1,2 +1,2 @@
 # table-head-fixer
-Ыmall functionality for table
+Small functionality for table
