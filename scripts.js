@@ -24,4 +24,4 @@ function tHeadFixer(e){
     }
 }
 
-console.log("Test!!!");
+console.log("For test!!!");
