@@ -1,19 +1,32 @@
+*{
+  font-family: Arial;
+}
+
 body{
   background-color: #333;
 }
 
 .table{
   width: 100%;
+  border-collapse: collapse;
 }
 
-.table__thead{
-
+.table__thead .table__column{
+  background-color: #f0f0f0;
 }
 
-.table__tbody{
-
+.table__tbody .table__column{
+  background-color: #fff;
 }
 
 .table__column{
-  
+  height: 46px;
+  color: #333;
+  text-align: left;
+  padding-left: 20px;
+  font-size: 15px;
+}
+
+.table__tbody .table__column{
+  color: #222;
 }
